@@ -93,7 +93,14 @@ class PaymentController extends Controller
 
     private function logRequest($provider, $request, $response)
     {
-        // Log the request and response for BI analysis
-        // You can implement this method to save the logs to the database or a file
+        $log = [
+            'provider' => $provider,
+            'request' => $request,
+            'response' => $response,
+        ];
+
+        info(json_encode($log));
+
+        return $log;
     }
 }
