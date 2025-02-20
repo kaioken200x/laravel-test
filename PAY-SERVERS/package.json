@@ -11,6 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.7",
+<<<<<<< HEAD
     "express": "^4.21.0"
+=======
+    "express": "^4.21.2"
+>>>>>>> c854fd0 (prueba laravel)
   }
 }
